@@ -1,0 +1,10 @@
+<gun_01.model>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/normal/lod0/Gun_01</nodefullVisual>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-0.432997 -0.398946 0.0761073</min>
+    <max>0.459625 0.396498 4.54975</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+</gun_01.model>

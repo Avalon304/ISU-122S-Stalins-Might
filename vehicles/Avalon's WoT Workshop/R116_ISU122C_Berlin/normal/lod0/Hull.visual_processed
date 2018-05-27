@@ -1,0 +1,523 @@
+<?xml version="1.0" ?>
+<root>
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1.000000 0.000000 0.000000</row0>
+			<row1>0.000000 1.000000 0.000000</row1>
+			<row2>0.000000 0.000000 1.000000</row2>
+			<row3>0.000000 0.000000 0.000000</row3>
+		</transform>
+		<node>
+			<identifier>HP_turretJoint</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.229900 0.852038 2.271215</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Track_Exhaus_1</identifier>
+			<transform>
+				<row0>-0.954639 0.000000 0.000000</row0>
+				<row1>0.000000 0.996585 0.000000</row1>
+				<row2>0.000000 0.000000 -0.951379</row2>
+				<row3>-0.999619 0.660366 -1.920426</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Fire_2</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>-0.326911 -0.006669 1.957544</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_RRear</identifier>
+			<transform>
+				<row0>-0.999807 0.000000 0.000000</row0>
+				<row1>0.000000 0.968979 0.000000</row1>
+				<row2>0.000000 0.000000 -0.969128</row2>
+				<row3>1.203424 0.127030 -3.098796</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_LRear</identifier>
+			<transform>
+				<row0>-0.999807 0.000000 0.000000</row0>
+				<row1>0.000000 0.968979 0.000000</row1>
+				<row2>0.000000 0.000000 -0.969128</row2>
+				<row3>-1.203424 0.127030 -3.098796</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Fire_1</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.517077 -1.262438</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_LFront</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.978148 0.000000</row1>
+				<row2>0.000000 0.000000 0.978148</row2>
+				<row3>-1.203424 0.136946 3.068824</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_Track_Exhaus_2</identifier>
+			<transform>
+				<row0>-0.928132 0.000000 0.000000</row0>
+				<row1>0.000000 0.996585 0.000000</row1>
+				<row2>0.000000 0.000000 -0.924962</row2>
+				<row3>1.000904 0.669365 -1.922395</row3>
+			</transform>
+		</node>
+		<node>
+			<identifier>HP_TrackUp_RFront</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 0.978148 0.000000</row1>
+				<row2>0.000000 0.000000 0.978148</row2>
+				<row3>1.203424 0.136946 3.068824</row3>
+			</transform>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+		<node>Scene Root</node>
+		<geometry>
+			<vertices>vertices</vertices>
+			<primitive>indices</primitive>
+			<primitiveGroup>
+				0
+				<material>
+					<identifier>122_hull</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/ISU122C_Berlin_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/ISU122C_Berlin_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/ISU122C_Berlin_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/ISU122C_Berlin_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.1</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>7</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.053606998175382614 0.6396549940109253 -0.09848099946975708</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				1
+				<material>
+					<identifier>2684_hull</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_268_4_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_268_4_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_268_4_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_268_4_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 8.41644 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>0.018312999978661537 1.3950810432434082 0.1495790034532547</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				2
+				<material>
+					<identifier>STG_turret</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/STG_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/STG_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/STG_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/STG_turret_01_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.18</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 4.20822 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.04496699944138527 0.8712000250816345 -0.7246019840240479</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				3
+				<material>
+					<identifier>252k_turret</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_252K_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_252K_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_252K_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_252K_turret_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>8.41644 4.20822 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>0.0 0.6962900161743164 -0.22100000083446503</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				4
+				<material>
+					<identifier>705A_hull</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>true</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_705_A_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_705_A_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_705_A_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Object_705_A_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.02827499993145466 0.04575600102543831 0.0004360000020824373</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				5
+				<material>
+					<identifier>kirovets_turret</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Kirovets_1_turret_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Kirovets_1_turret_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Kirovets_1_turret_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/Kirovets_1_turret_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>64</Int>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>4.20822 4.20822 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.011540000326931477 0.5040649771690369 0.06110899895429611</groupOrigin>
+			</primitiveGroup>
+			<primitiveGroup>
+				6
+				<material>
+					<identifier>Loza_hull</identifier>
+					<fx>shaders/std_effects/PBS_tank.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+					<property>
+						doubleSided
+						<Bool>false</Bool>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/M4_Loza_hull_01_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/M4_Loza_hull_01_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/M4_Loza_hull_01_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/M4_Loza_hull_01_AO.dds</Texture>
+					</property>
+					<property>
+						alphaReference
+						<Int>0</Int>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_detailUVTiling
+						<Vector4>7.0137 7.0137 0.000000 0.000000</Vector4>
+					</property>
+				</material>
+				<groupOrigin>-0.047880999743938446 0.3036850094795227 -0.3510670065879822</groupOrigin>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>-1.699415 -0.567330 -3.533326</min>
+		<max>1.592201 2.312706 3.337423</max>
+	</boundingBox>
+</root>

@@ -1,0 +1,10 @@
+<chassis.model>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.55878 0.00994561 -3.30181</min>
+    <max>1.56755 1.15812 3.285</max>
+  </visibilityBox>
+  <tank>	true	</tank>
+  <nodefullVisual>vehicles/Avalon's WoT Workshop/R116_ISU122C_Berlin/normal/lod0/Chassis</nodefullVisual>
+</chassis.model>
